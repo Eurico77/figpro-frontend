@@ -11,6 +11,5 @@
       false
     );
   }
-
   desativarDragDrop();
 })();
