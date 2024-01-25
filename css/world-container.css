@@ -1,0 +1,71 @@
+.world-section {
+  position: relative;
+  overflow: hidden;
+  padding-top: 7.0625rem;
+  padding-bottom: 8.375rem;
+  background: url("/imgs/fade.png") no-repeat center bottom;
+}
+
+.world-section .container .title {
+  text-align: center;
+  margin-bottom: 3.375rem;
+}
+
+.world-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.world-section .container .title h2 {
+  color: var(--primary);
+  text-align: center;
+  font-family: "Road rage", sans-serif;
+  font-size: 26.9375rem;
+  line-height: 0.7;
+  font-weight: 400;
+  letter-spacing: 2.9631rem;
+  text-transform: uppercase;
+  margin-bottom: 1.8125rem;
+}
+
+.world-section .container .title span {
+  color: var(--tertiary);
+  font-size: 1.5625rem;
+  font-weight: 500;
+  letter-spacing: 5.75px;
+  line-height: 153.3%;
+  text-transform: uppercase;
+}
+
+.world-section .container p {
+  color: #9c9c9c;
+  text-align: center;
+  width: 100%;
+  max-width: 39.5rem;
+  margin-bottom: 3.9375rem;
+}
+
+.world-section .ilustra {
+  position: absolute;
+  z-index: 1;
+}
+
+.world-section .gaviao {
+  top: -2.75rem;
+}
+
+.world-section .tigre {
+  bottom: 0;
+  left: 0;
+}
+
+.world-section .polvo {
+  top: -2.75rem;
+  right: 0;
+}
+
+.world-section .coruja {
+  bottom: 4.4375rem;
+  right: 0;
+}
