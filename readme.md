@@ -26,7 +26,7 @@ Welcome to Figpro, your gateway to a universe filled with magic and fun! Explore
 
 ## Images
 
-![FigPro](".github/Layout.jpg")
+![FigPro](.github/Layout.jpg)
 
 ## License
 
