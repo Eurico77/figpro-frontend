@@ -19,6 +19,13 @@ img {
   display: block;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+}
+
 header {
   position: absolute;
   top: 0;
@@ -52,20 +59,27 @@ header .container nav ul li a {
 
 header .container nav ul li .active {
   color: var(--primary);
+  font-weight: 700;
 }
 
 header .container nav ul li .active::before {
   content: "";
   position: absolute;
-  background: url("/imgs/active.svg");
+  background: url("/imgs/active.svg") no-repeat center center;
   width: 4px;
-  height: 26px;
-  left: -20px;
-  top: -50;
+  height: 32px;
+  left: 50%;
+  margin-left: -2px;
+  top: -32px;
 }
 
 header .container nav ul li a:hover {
   color: var(--tertiary);
+}
+
+header .container .right {
+  display: flex;
+  gap: 1rem;
 }
 
 .container {
