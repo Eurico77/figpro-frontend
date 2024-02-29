@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,11 +12,28 @@
   --primary: #1b1b1b;
   --secondary: #242424;
   --tertiary: #fcc26b;
+  --quaternary: #868686;
+}
+
+/* Utilities */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 img {
   max-width: 100%;
   display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 button {
@@ -25,6 +42,8 @@ button {
   outline: none;
   background: none;
 }
+
+/* Header */
 
 header {
   position: absolute;
@@ -70,20 +89,124 @@ header .container nav ul li .active::before {
   height: 32px;
   left: 50%;
   margin-left: -2px;
-  top: -32px;
+  top: -36px;
 }
 
 header .container nav ul li a:hover {
-  color: var(--tertiary);
+  color: var(--quaternary);
 }
 
 header .container .right {
   display: flex;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+/* Hero container*/
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("/imgs/background.png") no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero-container .container .text-left {
+  width: 100%;
+  max-width: 39.25rem;
+  padding-top: 18.25rem;
+}
+
+.hero-container .container .text-left .title {
+  margin-bottom: 2.5rem;
+}
+
+.hero-container .container .text-left .title h1 {
+  color: var(--quaternary);
+  font-family: "Road Rage";
+  font-size: 6.5625rem;
+  line-height: 72%;
+}
+
+.hero-container .container .text-left .title h1 span {
+  color: var(--primary);
+  font-family: "Road Rage";
+  font-size: 6.5625rem;
+  line-height: 72%;
+}
+
+.hero-container .container .text-left .title img {
+  transform: translateY(-20px);
+  margin-top: -20px;
+}
+
+.hero-container .container .text-left p {
+  font-family: "Roboto Mono", sans-serif;
+  color: var(--quaternary);
+  font-size: 1rem;
+  line-height: 155.3%;
+  margin-bottom: 2.6875rem;
+}
+
+.hero-container .container button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hero-container .container .text-left button span {
+  color: var(--primary);
+  -webkit-text-stroke: 1px var(--tertiary);
+  font-family: "Road Rage";
+  font-size: 2.5rem;
+  letter-spacing: 0.125rem;
+}
+
+.hero-container .container .text-left .users {
+  margin-top: 6.5625rem;
+  display: flex;
+  align-items: center;
   gap: 1rem;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+.hero-container .container .text-left .users ul {
+  display: flex;
+  align-items: center;
+}
+
+.hero-container .container .text-left .users ul li {
+  background-color: #fff;
+  border: 2px solid var(--tertiary);
+  border-radius: 50%;
+  width: 2.9375rem;
+  height: 2.9375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container .container .text-left .users ul li:not(:first-child) {
+  margin-left: -1.25rem;
+}
+
+.hero-container .container .text-left .users ul strong {
+  color: var(--quaternary);
+  font-size: 1.25rem;
+  margin-left: 1.25rem;
+}
+
+.hero-container .container .ilustra {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 1440px) {
+  .hero-container .container .ilustra {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    right: -10%;
+  }
 }
