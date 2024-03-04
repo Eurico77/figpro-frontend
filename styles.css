@@ -202,10 +202,6 @@ header .container .right {
   right: -12%;
 }
 
-.hero-container .container .ilustra img {
-  width: 100%;
-}
-
 @media (max-width: 1440px) {
   .hero-container .container .ilustra {
     right: -20%;
