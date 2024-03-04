@@ -1,5 +1,6 @@
 .numbers-container {
   padding-top: 4rem;
+  padding-bottom: 7.625rem;
 }
 
 .numbers-container p {
@@ -10,11 +11,68 @@
   color: var(--primary);
   font-size: 1.125rem;
   line-height: 155.3%;
-  margin-bottom: 2.7rem;
+  margin-bottom: 6.375rem;
 }
 
 .numbers-container .box {
+  position: relative;
   width: 100%;
+  height: 17.9375rem;
   max-width: 53.625rem;
   margin: 0 auto;
+  border-radius: 1.25rem;
+  border: 0.0938rem solid #ffe0b1;
+  padding: 0.3125rem;
+}
+
+.numbers-container .box .ilustra {
+  position: absolute;
+  top: -74px;
+  left: -16px;
+  z-index: 1;
+}
+
+.numbers-container .box .content {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.25rem;
+  background-color: var(--tertiary);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2.8125rem;
+}
+
+.numbers-container .box .content ul {
+  display: flex;
+}
+
+.numbers-container .box .content ul li {
+  text-align: center;
+  padding: 0.9375rem 1.25rem;
+}
+
+.numbers-container .box .content ul li:first-child {
+  padding-left: 0;
+}
+
+.numbers-container .box .content ul li:last-child {
+  padding-right: 0;
+}
+
+.numbers-container .box .content ul li:not(:first-child) {
+  border-left: 0.0938rem solid rgba(255, 255, 255, 0.4);
+}
+
+.numbers-container .box .content ul li strong {
+  display: block;
+  margin-bottom: 0.625rem;
+}
+
+.numbers-container .box .content ul li h3 {
+  font-family: "Road Rage";
+  color: #fff;
+  font-size: 4.75rem;
+  font-weight: 400;
+  line-height: 0.7;
 }
