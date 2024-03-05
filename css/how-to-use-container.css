@@ -1,4 +1,25 @@
 .how-to-use-section {
-  background-color: aqua;
-  height: 20px;
+  position: relative;
+  background: #f8f8f8;
+  padding-top: 6.5rem;
+  padding-bottom: 7.1875rem;
+}
+
+.how-to-use-section .container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.how-to-use-section .container .left-container {
+  flex: 1;
+  max-width: 31.25rem;
+}
+
+.how-to-use-section .container .left-container ul li:not(:last-child) {
+  margin-bottom: 2.5625rem;
+}
+
+.how-to-use-section .container .left-container ul li h3 {
+  font-family: "Rock salt", sans-serif;
 }
