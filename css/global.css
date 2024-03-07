@@ -46,8 +46,8 @@ header {
 
 .btn-primary {
   position: absolute;
+  top: 0;
   right: 50%;
-  bottom: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
