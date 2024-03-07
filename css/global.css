@@ -15,6 +15,12 @@
   --quaternary: #868686;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -45,9 +51,6 @@ header {
 }
 
 .btn-primary {
-  position: absolute;
-  top: 0;
-  right: 50%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
