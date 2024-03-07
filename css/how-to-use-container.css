@@ -90,3 +90,10 @@
   filter: blur(5.5px);
   z-index: -1;
 }
+
+.how-to-use-section .btn-primary {
+  position: absolute;
+  bottom: -3rem;
+  left: 50%;
+  margin-left: -8.3125rem;
+}
