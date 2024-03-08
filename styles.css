@@ -3,6 +3,7 @@
 @import url("./css/numbers-container.css");
 @import url("./css/how-to-use-container.css");
 @import url("./css/stories-container.css");
+@import url("./css/stickers-container.css");
 
 @media (max-width: 1440px) {
   .hero-container .container .ilustra {
