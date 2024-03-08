@@ -1,0 +1,61 @@
+.stories-section {
+  position: relative;
+  padding-top: 12.1875rem;
+  padding-bottom: 10.125rem;
+}
+
+.stories-section .container .title {
+  text-align: center;
+}
+
+.stories-section .container .title h4 {
+  color: #8e8e8e;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.5625rem;
+  line-height: 153.3%;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.stories-section .container .title h4 strong {
+  color: var(--tertiary);
+}
+
+.stories-section .container .title h2 {
+  font-weight: 400;
+  color: var(--primary);
+  font-size: 28.6875rem;
+  line-height: 0.7;
+  text-transform: uppercase;
+  font-family: "Road rage", sans-serif;
+  letter-spacing: 1.7212rem;
+}
+
+.stories-section .container .text {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 3.5625rem;
+  position: relative;
+  margin-top: -21.475rem;
+}
+
+.stories-section .container .text .description {
+  padding-bottom: 8.6875rem;
+  flex: 1;
+  max-width: 27.6875rem;
+}
+
+.stories-section .container .text .description p {
+  color: var(--primary);
+  font-size: 1rem;
+  line-height: 153.3%;
+}
+
+.stories-section .container .text .description p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.stories-section .container .text .description {
+  margin-bottom: 1rem;
+}

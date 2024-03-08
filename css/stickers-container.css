@@ -1,0 +1,48 @@
+.stickers-section {
+  width: 100%;
+  padding-bottom: 5.1875rem;
+}
+
+.stickers-section .title {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  max-width: 28.125rem;
+  margin: 0 auto;
+  margin-bottom: 12.9375rem;
+}
+
+.stickers-section .title h2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  justify-content: center;
+  font-family: "Road Rage";
+  font-size: 9.375rem;
+  line-height: 0.7;
+  letter-spacing: 0.75rem;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.stickers-section .title span {
+  font-family: "Road Rage";
+  font-weight: 400;
+}
+
+.stickers-section .title .subtitle {
+  position: absolute;
+  top: -28px;
+  left: -20px;
+  font-family: "Rock salt", sans-serif;
+  color: var(--tertiary);
+  font-size: 1.5625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.0313rem;
+}
+
+.stickers-section .title .ghost-text {
+  position: absolute;
+  left: 15rem;
+}
