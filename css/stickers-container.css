@@ -46,3 +46,86 @@
   position: absolute;
   left: 15rem;
 }
+
+.stickers-section .container .cards-stickers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.475rem;
+  flex-wrap: wrap;
+}
+
+.stickers-section .container .cards-stickers .card-sticker {
+  /* width: 100%; */
+  flex: 1;
+  max-width: 23.625rem;
+  height: 25.75rem;
+  border-radius: 20px;
+  border: 1px solid var(--tertiary);
+  padding: 4px;
+  margin-bottom: 5rem;
+}
+
+.stickers-section .container .cards-stickers .card-sticker .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.25rem;
+  border: 1px solid #d9d9d9;
+  background-color: #eee;
+  padding: 0 1.125rem;
+}
+
+.stickers-section .container .cards-stickers .card-sticker .content .image {
+  width: 100%;
+  max-width: 12.875rem;
+  height: 17.9375rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: -6rem;
+  margin-bottom: 0.5625rem;
+}
+
+.stickers-section .container .cards-stickers .card-sticker .content .info {
+  text-align: center;
+}
+
+.stickers-section .container .cards-stickers .card-sticker .content .info h3 {
+  color: var(--primary);
+  text-transform: uppercase;
+  font-family: "Road Rage", sans-serif;
+  font-size: 3rem;
+  line-height: 0.7;
+  letter-spacing: 1.64px;
+  margin-bottom: 1.6875rem;
+}
+
+.stickers-section .container .cards-stickers .card-sticker .content .info p {
+  color: var(--quaternary);
+  font-size: 0.875rem;
+}
+
+.stickers-section .container .cards-stickers .card-sticker .content .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  padding: 12px;
+}
+
+.stickers-section .container .cards-stickers .card-sticker .content .icons li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--tertiary);
+  color: var(--primary);
+  cursor: pointer;
+  transition: all 0.3s;
+  margin: 6px 0;
+}
