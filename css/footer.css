@@ -94,3 +94,30 @@ footer {
   color: #fff;
   opacity: 1;
 }
+
+@media (max-width: 991px) {
+  .first-area {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+  }
+
+  .first-area .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first-area .right ul li:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .second-area {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+  }
+}
