@@ -24,7 +24,7 @@ Welcome to Figpro, your gateway to a universe filled with magic and fun! Explore
 - **Scrum Master**: Eurico Magalhães
 - **Development Team Members**: Eurico Magalhães
 
-## Result
+## Result Desktop
 
 ![FigPro](.github/Layout.jpg)
 
